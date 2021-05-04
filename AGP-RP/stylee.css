@@ -1,0 +1,287 @@
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+  body{
+      margin: 0 auto;
+      width: 100%;
+  }
+  .server{
+    color: OrangeRed;
+    border: 10px solid Gainsboro;
+    border-radius: 10px;
+    margin-bottom: -150px;
+    margin-left: 1100px;
+    font-family: Cantarell;
+    font-size: 18px;
+  }
+  .titlepn{
+    color:#FFF;
+    width: 240px;
+    padding: 15px;
+    border: 0px solid LightGrey;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 295px;
+    background: url(../img/bgbottom.png) #00000078;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 23px;
+    transition: 300ms all ease;
+    
+
+  }
+  .titlepn:hover{
+    color:#FFF;
+    width: 240px;
+    padding: 10px;
+    border: 0px solid LightGrey;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 295px;
+    transition: 300ms all ease;
+    text-shadow: 3px 3px 4px #000;
+    background: url(../img/bgbottom.png) #00000078;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #208BE3;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 300ms all ease;
+    text-shadow: 3px 3px 4px #000;
+    transform: scale(1.1);
+  }
+  #header{
+      margin: 0 auto;
+      width: 100%;
+      height: 750px;
+      float: left;
+      background: url(../img/gta.jpg) fixed;
+      background-size: cover;
+  }
+  .imghome {
+      padding: 40px 0px 40px 0px;
+      z-index: 2;
+      position: relative;
+      margin-top: 300px;
+      width: 100%;
+      height: 200px;
+  }
+  .adown {
+      width: 100%;
+      height: 60px;
+      z-index: 2;
+      position: relative;
+  }
+  .bdown {
+    margin: -500px 0px 0px 350px;
+    float: left;
+    width: 230px;
+    height: 70px;
+    background: url(../img/bgbottom.png) #00000078;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+    transition: 300ms all ease;
+    text-shadow: 3px 3px 4px #000;
+  }
+  .bdown:hover {
+    margin: -500px 0px 0px 350px;
+    float: left;
+    width: 230px;
+    height: 70px;
+    background: url(../img/bgbottom.png) #00000078;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #208BE3;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+    transition: 300ms all ease;
+    transform: scale(1.1);
+    text-shadow: 3px 3px 4px #000;
+  }
+  #myVideo {
+      z-index: 1;
+      position: absolute;
+      float: left;
+      width: 100%;
+      height: 650px;
+    }
+  #two {
+      background: #111;
+      width: 100%;
+      height: 230px;
+      background-size: cover;
+      background-position-y: center;
+      float: left;
+  }
+
+  #part{
+      width: 100%;
+      background-image: linear-gradient(315deg, #D72465, #218BE3);
+      float: left;
+      padding-bottom: 30px;
+  }
+  .ltwo{
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    float: left;
+  }
+  .rtwo{
+    margin: 0 auto;
+    width: 20%;
+    height: 200px;
+    float: left;
+  }
+  .lineone {
+    margin: 60px 0px 0px 40px;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    background: #00000069;
+    font-size: 18px;
+    padding: 16px 30px 20px 20px;
+    float: left;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 90%);
+  }
+  .linetwo {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    background: #00000069;
+    font-size: 18px;
+    padding: 16px 30px 20px 20px;
+    float: left;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 90%);
+    margin: -13px 0px 0px 490px;
+  }
+  .discord {
+    float: left;
+    width: 140px;
+    height: 130px;
+    border: 4px solid #7289DB;
+    border-radius: 5px;
+    background: url(../img/dc.png) no-repeat center;
+    margin: 48px 0px 0px 0px;
+  }
+  .aname {
+    margin: 20px 0px 0px 0px;
+    float: right;
+    width: 350px;
+    height: 116px;
+  }
+  .nameone {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #FFF;
+    font-size: 55px;
+    letter-spacing: -4.2px;
+    float: left;
+  }
+  .nametwo {
+    margin: -32px 0px 0px 60px;
+    float: left;
+    font-family: 'Open Sans';
+    color: #FFF;
+    font-size: 55px;
+    letter-spacing: -4.2px;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  .apart{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .imgpart{
+    float: left;
+    width: 150px;
+    height: 150px;
+  }
+  .imgpart:hover{
+    float: left;
+    width: 150px;
+    height: 150px;
+    transform: scale(1.1);
+    transition: 200ms all ease;
+  }
+  .nickpart {
+    margin: 10px 0px 0px 20px;
+    float: left;
+    font-family: 'Open Sans';
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+  .propart {
+    float: right;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    color: #FFF;
+    margin: -3px 710px 0px 0px;
+    font-size: 22px;
+  }
+  .whatpart {
+    width: 100%;
+    margin-top: 0px;
+    background: #00000052;
+    float: left;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #FFF;
+    border-radius: 6px;
+    padding: 10px 0px;
+  }
+  .whatis {
+    float: right;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 100;
+    margin: 40px 0px 0px 0px;
+  }
+  .endby{
+    margin-top: 8px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*.center*/
+  .center {
+      padding-right: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+    @media (min-width: 768px) {
+      .center {
+        width: 750px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .center {
+        width: 970px;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      .center {
+        width: 1170px;
+      }
+    }
